@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio Digital</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            color: white;
+        }
+
+        .container {
+            display: grid;
+            height: 100vh;
+            grid-template-rows: 15% 5% 75% 5%;
+        }
+
+        .cardapio {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: rgb(89, 155, 254);
+        }
+
+        .barra {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: rgb(122, 255, 122);
+        }
+
+        .conteudo {
+            display: flex;
+            padding: 5px;
+            gap: 10px;
+        }
+
+        .item {
+            flex: 1;
+            padding: 5px;
+            background-color: rgb(255, 186, 58);
+        }
+
+        .rodape {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cardapio">
+            <h1>Cardápio Digital</h1>
+        </div>
+        <div class="barra">
+            <p>Barra de Navegação</p>
+        </div>
+        <div class="conteudo">
+            <div class="item">Conteudo 1</div>
+            <div class="item">Conteudo 2</div>
+        </div>
+        <div class="rodape">
+            <p>Rodapé</p>
+        </div>
+    </div>
+</body>
+
+</html>
